@@ -157,6 +157,10 @@ html{
 }
 .sobremi .fila{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* height: 100vh; */
 }
 .sobremi .fila .col
 {
@@ -165,7 +169,8 @@ html{
 .sobremi .fila .col h3{
     font-size: 28px;
     /* font-family: 'Righteous'; */
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .sobremi .fila .col ul{
     list-style: none;
@@ -178,8 +183,9 @@ html{
     color: var(--color-primario);
     background-color: var(--color-blanco);
     border-radius: 5px;
-    text-align: center;
+    text-align: right;
     width: 130px;
+    padding-right: 10px;
 }
 .sobremi .fila .col ul li span{
     background-color: var(--color-primario);
@@ -190,13 +196,15 @@ html{
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
     background-color: #394147;
     border-radius: 10px;
-    margin: 0 15px 15px 0;
+    margin: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -700,6 +708,18 @@ footer .arriba{
     nav.responsive ul li{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
+    }
+
+    .contenedor-header header .logo a{
+        font-size: 25px;
+    }
+
+    .sobremi .fila .col ul li{
+        font-size: 14px;
+    }
+
+    .sobremi .fila .col ul li strong{
+        width: 100px;
     }
 }
 @media screen and (max-width:700px){
