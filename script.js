@@ -36,7 +36,7 @@ function efectoHabilidades() {
 
 function download() {
     const link = document.createElement('a');
-    link.href = 'assets/CV JOSEPH MAGALLANES - FSK 15062025.pdf';
+    link.href = 'assets/CV-Joseph-Magallanes.pdf';
     link.download = 'CV-Joseph-Magallanes.pdf';
     link.click();
 }
